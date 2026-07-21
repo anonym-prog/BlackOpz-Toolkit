@@ -1,91 +1,93 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=System+Ready...;Welcome+to+BlackOpz+Toolkit;30+Custom+Tools;Use+at+your+own+risk" />
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-2.0.1-00ffff?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Active-ff00ff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Termux_|_Linux-00ff00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-UNLICENSED-ffffff?style=for-the-badge" />
+</p>
 
-<pre style="background: #0d1117; color: #00ff00; padding: 20px; border-radius: 10px; font-family: monospace;">
+<pre style="background: #0d1117; color: #00ff00; padding: 20px; border: 1px solid #00ffff; border-radius: 8px; text-align: left; font-family: monospace; white-space: pre-wrap;">
 
-╔══════════════════════════════════════════╗
-║  ░▒▓█ BlackOpz Toolkit █▓▒░              ║
-║  Version: 2.0.1                          ║
-║  Status: 🔥 Active                       ║
-║  Author: Anonymous                       ║
-║  Tools: 30 Custom Scripts                ║
-╚══════════════════════════════════════════╝
+  ██████  ██████  ██████  ██████  ██    ██ ██████  ██████  ███████ ███████ ██████  ██    ██
+  ██   ██ ██   ██ ██    ██ ██   ██ ██    ██ ██   ██ ██   ██ ██      ██      ██   ██  ██  ██
+  ██████  ██████  ██    ██ ██   ██ ██    ██ ██████  ██████  ███████ ███████ ██████    ████
+  ██   ██ ██   ██ ██    ██ ██   ██ ██    ██ ██   ██ ██   ██      ██      ██ ██   ██   ██
+  ██████  ██   ██  ██████  ██████   ██████  ██   ██ ██   ██ ███████ ███████ ██   ██   ██
+
+═══════════════════════════════════════════════════════════════════════════════
+  BLACKOPZ TOOLKIT v2.0.1
+  > 30 Custom Offensive Scripts
+  > System: Terminal Ready
+  > Mode: God Mode
+═══════════════════════════════════════════════════════════════════════════════
 
 $ whoami
 blackopz
 
-$ ls -la tools/
-total 1337
-drwxr-xr-x 1 root root 4096 Jul 22 00:00 .
-drwxr-xr-x 1 root root 4096 Jul 22 00:00 ..
-drwxr-xr-x 1 root root 4096 Jul 22 00:00 recon/
-drwxr-xr-x 1 root root 4096 Jul 22 00:00 exploit/
-drwxr-xr-x 1 root root 4096 Jul 22 00:00 post-exploit/
-
 $ cat disclaimer.txt
-- All tools are for educational and testing purposes only.
-- Do not use on systems without explicit permission.
-- I am not responsible for your actions.
+[!] For educational and testing purposes only.
+[!] Do NOT use on systems without permission.
 
 $ _
 </pre>
 
 ---
 
-## 📌 Available Tools
+## 🧩 Tools Catalog
 
-### 🔍 Reconnaissance (10 Tools)
-| Tool | Description |
-|------|-------------|
-| `port_scanner.py` | Fast TCP port scanner with service detection |
-| `subdomain_finder.py` | Enumerate subdomains using multiple sources |
-| `email_harvester.py` | Scrape emails from target websites |
-| `whois_lookup.py` | Get WHOIS information for a domain |
-| `dns_enum.py` | DNS record enumeration (A, MX, NS, TXT) |
-| `ip_geolocator.py` | Get geolocation data for an IP address |
-| `web_crawler.py` | Crawl target website for hidden endpoints |
-| `dir_buster.py` | Directory/file brute‑forcer with wordlist |
-| `social_osint.py` | Search social media accounts by username |
-| `shodan_search.py` | Query Shodan API for exposed devices |
+<details>
+<summary>🟦  RECONNAISSANCE (10 Tools)</summary>
 
-### 💥 Exploitation (10 Tools)
-| Tool | Description |
-|------|-------------|
-| `sql_injector.py` | Automated SQL injection scanner |
-| `xss_scanner.py` | Detect XSS vulnerabilities in forms |
-| `file_upload_shell.py` | Upload webshell via insecure upload |
-| `reverse_shell_gen.py` | Generate reverse shell payloads |
-| `bindshell_gen.py` | Generate bindshell payloads |
-| `php_backdoor.py` | Create a simple PHP backdoor |
-| `jsp_shell.py` | JSP webshell for Tomcat/JBoss |
-| `wordpress_plugin_exploit.py` | Exploit vulnerable WordPress plugins |
-| `joomla_rce.py` | Remote code execution on Joomla sites |
-| `drupal_exploit.py` | Exploit known Drupal vulnerabilities |
+- `port_scanner.py` - Fast TCP port scanner
+- `subdomain_finder.py` - Enumerate subdomains
+- `mass_subdomain_scanner.py` - Multithreaded brute-forcer
+- `whois_lookup.py` - WHOIS domain info
+- `dns_enum.py` - DNS record enumeration
+- `tech_fingerprinter.py` - Detect CMS/framework/version
+- `dir_buster.py` - Directory & file brute-forcer
+- `email_harvester.py` - Scrape emails from pages
+- `ip_geolocator.py` - IP location & ISP details
+- `social_osint.py` - Username search across platforms
+</details>
 
-### 🕵️ Post-Exploitation (10 Tools)
-| Tool | Description |
-|------|-------------|
-| `keylogger.py` | Log keystrokes and clipboard content |
-| `screenshot_capture.py` | Take screenshots of target's desktop |
-| `credential_dumper.py` | Dump saved credentials from browser/OS |
-| `persistence_win.py` | Install persistence via registry/task |
-| `persistence_linux.py` | Install persistence via cron/systemd |
-| `exfil_http.py` | Exfiltrate data via HTTP requests |
-| `exfil_dns.py` | Exfiltrate data via DNS tunneling |
-| `priv_esc_win.py` | Windows privilege escalation scripts |
-| `priv_esc_linux.py` | Linux privilege escalation scripts |
-| `cleanup_tool.py` | Remove logs and traces after operation |
+<details>
+<summary>🟥  EXPLOITATION (10 Tools)</summary>
+
+- `php_backdoor.py` - Obfuscated PHP backdoor
+- `aspx_web_shell.py` - ASPX shell for IIS servers
+- `sql_injector_auto.py` - Automated SQLi scanner/dumper
+- `xss_payload_gen.py` - XSS payload with encoding
+- `wordpress_rce.py` - Exploit vulnerable WP plugins
+- `command_injector.py` - OS command injection payloads
+- `file_upload_bug.py` - Bypass upload filters
+- `ssrf_scanner.py` - Server-Side Request Forgery
+- `local_file_include.py` - LFI to RCE via log poisoning
+- `reverse_shell_gen.py` - Multi-platform reverse shell
+</details>
+
+<details>
+<summary>🟩  POST-EXPLOITATION (10 Tools)</summary>
+
+- `credential_dumper_ultimate.py` - Multi-source credential dump
+- `screenshot_capture_ultimate.py` - Periodic stealth screenshot
+- `keylogger_advanced.py` - Silent keylogger + clipboard
+- `persistence_win_advanced.py` - 6-layer Windows persistence
+- `persistence_linux_advanced.py` - 5-layer Linux persistence
+- `exfil_http_advanced.py` - HTTP exfil with XOR/chunking
+- `exfil_dns_advanced.py` - DNS tunneling exfiltration
+- `priv_esc_win_advanced.py` - Windows privilege scanner
+- `priv_esc_linux_advanced.py` - Linux privilege scanner
+- `cleanup_advanced.py` - Total trace wiping & memory flush
+</details>
 
 ---
 
-## ⚙️ Installation
+## ⚡ Quick Start
 
 ```bash
-# Clone the repository
+# Clone & install
 git clone https://github.com/anonym-prog/BlackOpz-Toolkit.git
 cd BlackOpz-Toolkit
+chmod +x install.sh && ./install.sh
 
-# Install dependencies
-chmod +x install.sh
-./install.sh
+# Launch interactive menu
+python3 menu.py
